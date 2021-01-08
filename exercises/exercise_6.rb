@@ -14,13 +14,13 @@ puts "----------"
 
 @store1.employees.create(first_name: "Khurram", last_name: "Virani",
   hourly_rate: 60)
-@store1.employees.create(first_name: "A", last_name: "B",
-  hourly_rate: 30)
-@store2.employees.create(first_name: "C", last_name: "D",
-  hourly_rate: 40)
-@store2.employees.create(first_name: "E", last_name: "F",
-  hourly_rate: 30)
-@store3.employees.create(first_name: "G", last_name: "H",
+@store1.employees.create(first_name: "Acc", last_name: "Bcc",
   hourly_rate: 50)
-@store3.employees.create(first_name: "I", last_name: "J",
+@store2.employees.create(first_name: "Ccc", last_name: "Dcc",
+  hourly_rate: 40)
+@store2.employees.create(first_name: "Ecc", last_name: "Fcc",
+  hourly_rate: 60)
+@store3.employees.create(first_name: "Gcc", last_name: "Hcc",
+  hourly_rate: 50)
+@store3.employees.create(first_name: "Icc", last_name: "Jcc",
   hourly_rate: 30)
